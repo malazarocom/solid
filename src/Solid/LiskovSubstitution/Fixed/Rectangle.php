@@ -10,17 +10,17 @@ class Rectangle extends Shape
     {
         $this->height = $value;
     }
-    
+
     public function getHeight()
     {
         return $this->height;
     }
-    
+
     public function setWidth($value)
     {
         $this->width = $value;
     }
-    
+
     public function getWidth()
     {
         return $this->width;

@@ -10,13 +10,13 @@ final class Square extends Rectangle
     {
         parent::__construct($heightAndWidth, $heightAndWidth);
     }
-    
+
     public function setHeight($value)
     {
         $this->height = $value;
         $this->width = $value;
     }
-    
+
     public function setWidth($value)
     {
         $this->height = $value;

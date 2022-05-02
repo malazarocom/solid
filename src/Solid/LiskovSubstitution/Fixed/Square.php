@@ -10,22 +10,22 @@ class Square extends Shape
     {
         $this->setEdge($value);
     }
-    
+
     public function getHeight()
     {
         return $this->height;
     }
-    
+
     public function setWidth($value)
     {
         $this->setEdge($value);
     }
-    
+
     public function getWidth()
     {
         return $this->width;
     }
-    
+
     private function setEdge($value)
     {
         $this->height =  $value;

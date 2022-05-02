@@ -19,7 +19,7 @@ class Report
         $this->date = $date;
         $this->title = $title;
     }
-    
+
     public function getContents(): array
     {
         return [

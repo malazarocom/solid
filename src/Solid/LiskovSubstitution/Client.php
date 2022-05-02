@@ -11,11 +11,11 @@ class Client
     {
         $rectangle->setWidth(5);
         $rectangle->setHeight(4);
-        
+
         if ($rectangle->getArea() != 20) {
             throw new Exception('Bad area! Liskov substitution principle KO.');
         }
-        
+
         return true;
     }
 }

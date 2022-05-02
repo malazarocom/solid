@@ -13,7 +13,7 @@ class SingleResponsabilityBadTest extends TestCase
             'date'  => '28/04/1977',
             'title' => 'Super Informe html'
         ];
-        
+
         $expected = "<h1>{$arrayDataReport['title']}</h1><h3>{$arrayDataReport['date']}</h3>";
         $htmlFormat = new HtmlFormat($arrayDataReport);
         $result = $htmlFormat->formatData();

@@ -12,7 +12,7 @@ class HtmlFormat extends Format
         $this->title = $arrayConstruct['title'];
     }
 
-    public function formatData() : string
+    public function formatData(): string
     {
         return "<h1>{$this->title}</h1><h3>{$this->date}</h3>";
     }
