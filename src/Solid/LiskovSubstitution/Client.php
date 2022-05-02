@@ -13,7 +13,7 @@ class Client
         $rectangle->setHeight(4);
         
         if ($rectangle->getArea() != 20) {
-            throw new Exception('Bad area!');
+            throw new Exception('Bad area! Liskov substitution principle KO.');
         }
         
         return true;
